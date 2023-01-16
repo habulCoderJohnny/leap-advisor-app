@@ -6,6 +6,7 @@ import AdvanceServices from './AdvanceServices';
 import Services from './Services';
 import Business from './Business';
 import Footer from './Footer';
+import CustomerSection from './CustomerSection';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Navbar></Navbar>
             <Banner></Banner>
             <AdvanceServices></AdvanceServices>
+            <CustomerSection></CustomerSection>
             <BusinessGrowup></BusinessGrowup>
             <Services></Services>
             <Business></Business>

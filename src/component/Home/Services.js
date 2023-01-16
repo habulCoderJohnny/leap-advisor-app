@@ -2,8 +2,8 @@ import React from 'react';
 
 const Services = () => {
     return (
-        <div className='bg-white'>
-         <h1 className="text-xl text-warning font-bold mb-4">OUR SERVICES</h1>
+        <div className='bg-white '>
+         <h1 className="pt-10 text-xl text-warning font-bold mb-4">OUR SERVICES</h1>
          <h1 className="text-5xl text-black font-bold">
          Provide Awesome Service <br />With<span className='underline decoration-warning'> Our Tools</span>
     </h1>

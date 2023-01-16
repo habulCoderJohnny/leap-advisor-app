@@ -13,9 +13,9 @@ const BusinessGrowup = () => {
     return (
         <section>
 
-            <div className="hero min-h-screen bg-white">
+            <div className="hero min-h-screen bg-white" style={{ backgroundImage: `url(${bg})` }} >
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <div  data-aos="fade-left"  data-aos-delay="300"  className='w-50' style={{ backgroundImage: `url(${bg})` }} >
+    <div  data-aos="fade-left"  data-aos-delay="300"  className='w-50'>
     <img src={img} className="max-w-lg rounded-lg" />
     </div>
 
