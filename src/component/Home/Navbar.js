@@ -51,7 +51,7 @@ const Navbar = () => {
  
   <div className="navbar-end">
   <h5 className='font-mono'>Contact us
-  <p>(+880)0123982938238</p></h5>
+  <p>(+880)012398293</p></h5>
   <button className="btn btn-warning rounded-full ml-4 p-4">Free Consulation</button>
   </div>
 </div>

@@ -21,7 +21,7 @@ const Business = () => {
 
         <div className='text-left' data-aos="fade-right" data-aos-delay="300"  >
           <h1 className="text-xl text-warning font-bold mb-4">GROWING ONLINE</h1>
-          <h1 className="text-5xl text-black font-bold">
+          <h1 className="lg:text-5xl text-black font-bold">
             Steps To Build A<br />  <span className='underline decoration-wavy decoration-warning'>Successful</span> Business & Digital Product
           </h1>
 

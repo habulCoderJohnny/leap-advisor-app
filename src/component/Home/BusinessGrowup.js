@@ -20,8 +20,8 @@ const BusinessGrowup = () => {
     </div> 
     <div data-aos="fade-right" data-aos-delay="300"  className='text-left  px-6'>
     <h1 className="text-xl text-warning font-bold mb-4">YOUR BUSINESS GROWTH</h1>
-    <h1 className="text-5xl text-black font-bold">
-    Financial Solutions To <br /> Grownup <span className='underline decoration-wavy decoration-warning'>Your Business</span>
+    <h1 className="lg:text-5xl text-black font-bold">
+    Financial Solutions To <br /> Grownup <span className='underline decoration-warning'>Your Business</span>
     </h1>
     <p className="py-6 text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
 
@@ -30,22 +30,17 @@ const BusinessGrowup = () => {
     <div className="stats stats-vertical lg:stats-horizontal shadow">
   
   <div className="stat">
-    <div className="text-5xl font-bold text-warning">254+</div>
+    <div className="lg:text-5xl font-bold text-warning">254+</div>
     <div className="text-3xl text-black font-bold">Projects Completed</div>
     <p className="py-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
   </div>
   
   <div className="stat">
-    <div className="text-5xl font-bold text-warning">98%</div>
+    <div className="lg:text-5xl font-bold text-warning">98%</div>
     <div className="text-3xl text-black font-bold">Positive Feedback</div>
     <p className="py-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
   </div>
   </div>
-
-
-
-
-
     </div>
   </div>
 </div>

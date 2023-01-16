@@ -15,7 +15,7 @@ const CustomerSection = () => {
             <div className="hero min-h-screen bg-white" style={{ backgroundImage: `url(${sectionBg})` }} >
   <div  className="hero-content flex-col lg:flex-row">
     <div  data-aos="fade-left"  data-aos-delay="200"  className='w-50'>
-    <img src={sectionImg} className="max-w-lg rounded-lg" />
+    <img src={sectionImg} className="w-full max-w-7xl rounded-lg" />
     </div>
 
 <div data-aos="fade-right" data-aos-delay="200" className='text-left pl-10'>
@@ -40,16 +40,7 @@ const CustomerSection = () => {
 </ul>
 
 
-
-
-
-
         </div>
-
-
-
-
-
     </div>
   </div>
 </div>
