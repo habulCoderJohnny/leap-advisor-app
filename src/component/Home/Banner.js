@@ -10,7 +10,8 @@ import 'aos/dist/aos.css';
 const Banner = () => {
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
+  
     return (
         <div style={{ backgroundImage: `url(${bannerbg})` }} className="hero min-h-screen">
   <div className="hero-content flex-col lg:flex-row-reverse">

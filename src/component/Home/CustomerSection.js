@@ -1,22 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import sign from '../../assets/sign.png';
 import sectionImg from '../../assets/demo-two-section-one-main-img.webp';
 import sectionBg from '../../assets/demo-two-section-one-main-img-bg.webp';
+// animation 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const CustomerSection = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
     return (
         <section>
             <div className="hero min-h-screen bg-white" style={{ backgroundImage: `url(${sectionBg})` }} >
   <div  className="hero-content flex-col lg:flex-row">
-    <div  data-aos="fade-left"  data-aos-delay="300"  className='w-50'>
+    <div  data-aos="fade-left"  data-aos-delay="200"  className='w-50'>
     <img src={sectionImg} className="max-w-lg rounded-lg" />
     </div>
 
-    <div  data-aos="fade-right"  data-aos-delay="300"  className='text-left space-x-1'>
+<div data-aos="fade-right" data-aos-delay="200" className='text-left pl-10'>
 
         <div>
           <h1 className="text-xl text-warning font-bold">WE ARE CONSULTING AGENCY</h1>
-            <h1 className="text-5xl font-bold text-black">
+            <h1 className="text-3xl font-bold text-black">
             We Provide Best Business Advice To Our Customers</h1>
             <p className="py-4 text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
             
