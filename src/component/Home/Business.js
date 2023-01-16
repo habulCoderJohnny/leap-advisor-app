@@ -21,7 +21,7 @@ const Business = () => {
         <div className='text-left'>
           <h1 className="text-xl text-warning font-bold mb-4">GROWING ONLINE</h1>
           <h1 data-aos="fade-right"  data-aos-delay="300"  className="text-5xl text-black font-bold">
-            Steps To Build A<br />  <span className='underline decoration-warning'>Successful</span> Business & Digital Product
+            Steps To Build A<br />  <span className='underline decoration-wavy decoration-warning'>Successful</span> Business & Digital Product
           </h1>
           <p className="py-6 text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
           <CustomButton></CustomButton>

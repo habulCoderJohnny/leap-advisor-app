@@ -5,7 +5,7 @@ const Services = () => {
         <div className='bg-white '>
          <h1 className="pt-10 text-xl text-warning font-bold mb-4">OUR SERVICES</h1>
          <h1 className="text-5xl text-black font-bold">
-         Provide Awesome Service <br />With<span className='underline decoration-warning'> Our Tools</span>
+         Provide Awesome Service <br />With<span className='underline decoration-wavy decoration-warning'> Our Tools</span>
     </h1>
     <p className="py-6 text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
 

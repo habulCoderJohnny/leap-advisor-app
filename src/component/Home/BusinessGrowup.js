@@ -13,16 +13,15 @@ const BusinessGrowup = () => {
     return (
         <section>
 
-            <div className="hero min-h-screen bg-white" style={{ backgroundImage: `url(${bg})` }} >
+            <div className="hero min-h-screen bg-white" style={{ backgroundImage: `url(${bg})`}}> 
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div  data-aos="fade-left"  data-aos-delay="300"  className='w-50'>
-    <img src={img} className="max-w-lg rounded-lg" />
-    </div>
-
-    <div  data-aos="fade-right"  data-aos-delay="300"  className='text-left'>
+    <img src={img} className="max-w-lg rounded-lg"/>
+    </div> 
+    <div data-aos="fade-right" data-aos-delay="300"  className='text-left  px-6'>
     <h1 className="text-xl text-warning font-bold mb-4">YOUR BUSINESS GROWTH</h1>
     <h1 className="text-5xl text-black font-bold">
-    Financial Solutions To <br /> Grownup <span className='underline decoration-warning'>Your Business</span>
+    Financial Solutions To <br /> Grownup <span className='underline decoration-wavy decoration-warning'>Your Business</span>
     </h1>
     <p className="py-6 text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
 

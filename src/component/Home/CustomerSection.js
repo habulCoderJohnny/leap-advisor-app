@@ -1,4 +1,5 @@
 import React from 'react';
+import sign from '../../assets/sign.png';
 import sectionImg from '../../assets/demo-two-section-one-main-img.webp';
 import sectionBg from '../../assets/demo-two-section-one-main-img-bg.webp';
 
@@ -11,13 +12,32 @@ const CustomerSection = () => {
     <img src={sectionImg} className="max-w-lg rounded-lg" />
     </div>
 
-    <div  data-aos="fade-right"  data-aos-delay="300"  className='text-left'>
+    <div  data-aos="fade-right"  data-aos-delay="300"  className='text-left space-x-1'>
 
         <div>
-                        <h1 className="text-xl text-warning font-bold mb-4">WE ARE CONSULTING AGENCY</h1>
+          <h1 className="text-xl text-warning font-bold">WE ARE CONSULTING AGENCY</h1>
             <h1 className="text-5xl font-bold text-black">
             We Provide Best Business Advice To Our Customers</h1>
-            <p className="py-6 text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+            <p className="py-4 text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+            
+   <ul>
+  <li><div className="text-3xl text-black font-bold flex"> <img src={sign} alt="" />
+    Investment Planning</div>
+  <p className="py-6 text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+  </li>
+  <li><div className="text-3xl text-black font-bold flex">
+  <img src={sign} alt="" />
+    Finance Management</div>
+  <p className="py-4 text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+  </li>
+
+</ul>
+
+
+
+
+
+
         </div>
 
 
