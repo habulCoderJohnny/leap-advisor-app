@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/Logo-black.svg';
+import logo from '../../assets/Logo.svg';
 import headerbg from '../../assets/banner-bg-img-demo-two.webp';
 
 const Navbar = () => {
