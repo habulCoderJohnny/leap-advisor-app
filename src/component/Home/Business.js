@@ -13,7 +13,7 @@ const Business = () => {
   }, [])
   return (
     <div className="hero min-h-screen bg-white mt-[-24px]">
-      <div className="hero-content flex-col lg:flex-row">
+      <div className="hero-content grid lg:grid-cols-2 gap-2">
         <div data-aos="fade-left" data-aos-delay="300">
           <img src={guy2} className="max-w-lg rounded-lg" />
         </div>
@@ -21,7 +21,7 @@ const Business = () => {
 
         <div className='text-left' data-aos="fade-right" data-aos-delay="300"  >
           <h1 className="text-xl text-warning font-bold mb-4">GROWING ONLINE</h1>
-          <h1 className="lg:text-5xl text-black font-bold">
+          <h1 className="lg:text-5xl text:2xl text-black font-bold">
             Steps To Build A<br />  <span className='underline decoration-wavy decoration-warning'>Successful</span> Business & Digital Product
           </h1>
 

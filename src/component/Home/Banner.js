@@ -22,9 +22,9 @@ const Banner = () => {
 
       <h1 className="lg:text-xl">YOUR BUSINESS GROWTH & SALES</h1>
 
-      <h1 className="lg:text-5xl font-bold">
+      <h1 className="lg:text-5xl text-3xl font-bold">
 Find Best Solution <br /> For 
-      <span className='lg:text-5xl font-bold text-warning'> Financial Future</span>
+      <span className='lg:text-5xl text-3xl font-bold text-warning'> Financial Future</span>
       </h1>
       <p className="py-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
       <CustomButton></CustomButton>

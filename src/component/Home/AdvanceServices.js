@@ -13,13 +13,13 @@ const AdvanceServices = () => {
         AOS.init();
     }, [])
     return (
-        <div className='mt-10' >
+        <div className='mt-10'>
             <h1 className="text-xl text-warning font-bold mb-4">ADVANCED SERVICES</h1>
-            <h1 className="lg:text-5xl font-bold">
+            <h1 className="lg:text-5xl text-2xl font-bold">
                 Find Best Solution </h1>
             <p className="py-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
 
-            <div data-aos="zoom-in-up" data-aos-delay="300" className='grid grid-cols-1  lg:grid-cols-3 my-6'>
+            <div data-aos="zoom-in-up" data-aos-delay="300" className='grid grid-cols-1 lg:grid-cols-3 my-6'>
 
 
                 <div>
@@ -38,7 +38,7 @@ const AdvanceServices = () => {
 
                 <div>
                     <img className='mx-auto' src={love} />
-                    <h1 className="text-3xl font-bold py-5">Branding Strategy</h1>
+                    <h1 className="lg:text-3xl font-bold py-5">Branding Strategy</h1>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
                 </div>
 
