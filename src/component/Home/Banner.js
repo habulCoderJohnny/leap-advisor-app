@@ -14,9 +14,9 @@ const Banner = () => {
     return (
         <div style={{ backgroundImage: `url(${bannerbg})` }} className="hero min-h-screen">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <img   data-aos="fade-down-left"  data-aos-delay="300"  src={bannerWomen} className="max-w-lg rounded-lg" />
+    <img data-aos="zoom-in-up"  data-aos-delay="300"  src={bannerWomen} className="max-w-lg rounded-lg" />
     <img src={banerphone} className="max-w-sm rounded-sm w-40" />
-    <div   data-aos="fade-down-right" data-aos-offset="200"
+    <div   data-aos="zoom-in-down" data-aos-offset="200"
     data-aos-delay="300" className='text-left'>
       <h1 className="text-xl">YOUR BUSINESS GROWTH & SALES</h1>
       <h1 className="text-5xl font-bold">

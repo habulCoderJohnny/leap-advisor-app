@@ -11,15 +11,15 @@ const BusinessGrowup = () => {
   }, [])
 
     return (
-        <section data-aos="fade-left"  data-aos-delay="300" >
+        <section>
 
             <div className="hero min-h-screen bg-white">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <div className='w-50' style={{ backgroundImage: `url(${bg})` }} >
+    <div  data-aos="fade-left"  data-aos-delay="300"  className='w-50' style={{ backgroundImage: `url(${bg})` }} >
     <img src={img} className="max-w-lg rounded-lg" />
     </div>
 
-    <div className='text-left'>
+    <div  data-aos="fade-right"  data-aos-delay="300"  className='text-left'>
     <h1 className="text-xl text-warning font-bold mb-4">YOUR BUSINESS GROWTH</h1>
     <h1 className="text-5xl text-black font-bold">
     Financial Solutions To <br /> Grownup <span className='underline decoration-warning'>Your Business</span>
